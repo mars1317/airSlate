@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.59add8ea.chunk.css",
+    "main.js": "./static/js/main.fa50cb8c.chunk.js",
+    "main.js.map": "./static/js/main.fa50cb8c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.53c3f2c0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.53c3f2c0.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "./static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.47d291f0.chunk.js": "./static/js/2.47d291f0.chunk.js",
+    "static/js/2.47d291f0.chunk.js.map": "./static/js/2.47d291f0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "./static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.59add8ea.chunk.css.map": "./static/css/main.59add8ea.chunk.css.map",
+    "static/js/2.47d291f0.chunk.js.LICENSE.txt": "./static/js/2.47d291f0.chunk.js.LICENSE.txt",
+    "static/media/DocumentList.module.scss": "./static/media/arrow-right.5f6ede2e.svg",
+    "static/media/EmailField.module.scss": "./static/media/disabled_copy.ce2870a8.svg",
+    "static/media/document_type_doc.svg": "./static/media/document_type_doc.4f99dd87.svg",
+    "static/media/document_type_encript.svg": "./static/media/document_type_encript.a2388002.svg",
+    "static/media/document_type_fax.svg": "./static/media/document_type_fax.9aef934d.svg",
+    "static/media/document_type_link.svg": "./static/media/document_type_link.8b8ec557.svg",
+    "static/media/document_type_shared.svg": "./static/media/document_type_shared.6986303a.svg",
+    "static/media/document_type_sign.svg": "./static/media/document_type_sign.9264efa6.svg",
+    "static/media/Title.module.scss": "./static/media/report.be34723c.svg",
+    "static/media/FaxNumber.module.scss": "./static/media/tooltip.f50d3b46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53c3f2c0.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.47d291f0.chunk.js",
+    "static/css/main.59add8ea.chunk.css",
+    "static/js/main.fa50cb8c.chunk.js"
+  ]
+}
