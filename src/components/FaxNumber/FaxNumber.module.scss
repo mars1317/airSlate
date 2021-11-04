@@ -1,0 +1,49 @@
+@import "../../assets/style/scss-variables.scss";
+
+.FaxNumber {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .SectionTitle {
+    margin-bottom: 8px;
+
+    span {
+      margin-left: 8px;
+
+      &:after {
+        content: url('../../assets/icons/tooltip.svg');
+        position: relative;
+        top: 2px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .Tooltip {
+    background-color: $dark-gray;
+    padding: 8px 12px;
+    margin-top: -8px;
+    border-radius: 4px;
+
+    .TooltipText {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 400;
+    }
+
+    &:after {
+      border-top-color: $dark-gray !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .FaxNumber {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../assets/style/scss-variables.scss";
+
+.CircularProgressbar {
+  max-width: 72px;
+  
+  .CircularProgressbar-path {
+    stroke: $sea-green;
+  }
+
+  .CircularProgressbar-text {
+    font-size: 46px;
+    line-height: 48px;
+    font-weight: 700;
+    fill: $dark-gray;
+  }
+}

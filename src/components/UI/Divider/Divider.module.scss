@@ -1,0 +1,10 @@
+@import "../../../assets/style/scss-variables.scss";
+
+.Divider {
+  height: 1px;
+  background-color: $light-gray;
+  border-radius: 4px;
+  border: none;
+  // border-color: $light-gray;
+  // border-style: solid;
+}

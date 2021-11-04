@@ -1,0 +1,26 @@
+@import "./scss-variables.scss";
+
+.SectionIntro {
+  max-width: 320px;
+}
+
+.SectionTitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: $dark-gray;
+}
+
+.SectionDescription {
+  font-size: 12px;
+  line-height: 16px;
+  color: $simple-gray;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+  .SectionIntro {
+    margin-bottom: 15px;
+  }
+}

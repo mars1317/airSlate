@@ -1,0 +1,15 @@
+@import "../../assets/style/scss-variables.scss";
+
+.Title {
+  font-size: 24px;
+  line-height: 32px;
+  color: $dark-gray;
+  font-weight: 400;
+
+  &:before {
+    content: url('../../assets/icons/report.svg');
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+  }
+}

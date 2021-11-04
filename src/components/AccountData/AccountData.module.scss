@@ -1,0 +1,66 @@
+@import "../../assets/style/scss-variables.scss";
+
+.AccountData {
+  background-color: $blue-gray;
+  border-radius: 8px;
+  margin: 24px 0 32px;
+  padding: 12px 24px;
+  
+  .List {
+    width: 380px;
+
+    .ListItem {
+      display: flex;
+      font-size: 14px;
+      line-height: 32px;
+
+      .DataField {
+        color: $simple-gray;
+        margin-right: 80px;
+        width: 136px;
+      }
+
+      .DataValue {
+        color: $dark-gray;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .AccountData {
+    .List {
+      width: 380px;
+  
+      .ListItem {
+        display: flex;
+        font-size: 14px;
+        line-height: 32px;
+  
+        .DataField {
+          margin-right: 50px;
+          width: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .AccountData {
+    .List {
+      max-width: 350px;
+      width: auto;
+  
+      .ListItem {
+        font-size: 12px;
+        line-height: 28px;
+  
+        .DataField {
+          margin-right: 25px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}

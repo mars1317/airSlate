@@ -1,0 +1,49 @@
+@import "../../../assets/style/scss-variables.scss";
+
+.DocumentStatistics {
+  margin: 24px 0 32px;
+  position: relative;
+
+  .JobBtn {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    color: $simple-blue;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: $white;
+
+    &:after {
+      content: url('../../../assets/icons/arrow-right.svg');
+      margin-left: 8px;
+      transition: margin-left ease-in-out 0.2s;
+    }
+
+    &:hover {
+      cursor: pointer;
+      
+      &:after {
+        margin-left: 3px;
+      }
+    }
+  }
+
+  .List {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .DocumentStatistics {
+    margin: 24px 0 32px;
+
+    .List {
+      display: flex;
+      justify-content: stretch;
+      flex-wrap: wrap;
+    }
+  }
+}

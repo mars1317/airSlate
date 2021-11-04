@@ -1,0 +1,101 @@
+@import "../../assets/style/scss-variables.scss";
+
+.Subscription {
+  margin-bottom: 28px;
+
+  .List {
+    background-color: $blue-gray;
+    border-radius: 0 0 8px 8px;
+    padding: 16px 24px;
+
+    .ListItem {
+      display: flex;
+      font-size: 14px;
+      line-height: 32px;
+
+      .DataField {
+        color: $simple-gray;
+        margin-right: 80px;
+        width: 136px;
+      }
+
+      .DataValue {
+        color: $dark-gray;
+      }
+    }
+  }
+
+  .List.Header {
+    margin-bottom: 2px;
+    border-radius: 8px 8px 0 0;
+
+    .ListItem {
+      .DataField {
+        margin-right: 80px;
+      }
+      .DataValue {
+        font-weight: 600;
+        margin-right: 136px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Subscription {  
+    .List {
+      padding: 16px 20px;
+
+      .ListItem {
+        .DataField {
+          margin-right: 50px;
+          width: 136px;
+        }
+      }
+    }
+  
+    .List.Header {
+      .ListItem {
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .DataField {
+          margin-right: 0px;
+        }
+
+        .DataValue {
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Subscription {  
+    .List {
+      .ListItem {
+        font-size: 12px;
+        line-height: 28px;
+
+        .DataField {
+          margin-right: 0px;
+        }
+      }
+    }
+  
+    .List.Header {
+      .ListItem {
+        flex-wrap: wrap;
+
+        .DataField {
+          margin-right: 50px;
+        }
+
+        .DataValue {
+          margin-right: 80px;
+        }
+      }
+    }
+  }
+}
