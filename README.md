@@ -2,8 +2,8 @@
 
 ## To launch a project locally:
 
-### `npm install`
+### 1. `npm install`
 
-### `npm run start`
+### 2. `npm run start`
 
 ## To test visit next link: https://mars1317.github.io/airSlate/
